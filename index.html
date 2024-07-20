@@ -12,18 +12,25 @@
 <body>
     <header>
         <div class="logo-container">
-            <img src="logo.svg">
+            <img src="logo.svg" alt="Three Dots Logo">
             <h4 class="logo">Three Dots</h4>
         </div>
         <nav>
             <ul class="nav-links">
                 <li><a class="nav-link" href="#">Specs</a></li>
-                <li><a class="nav-link" href="#">Products</a></li>
+                <li class="dropdown">
+                    <a class="nav-link" href="#">Products</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Desktops</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </li>
                 <li><a class="nav-link" href="#">Contact</a></li>
             </ul>
         </nav>
-        <div clas="cart">
-            <img src="cart.svg">
+        <div class="cart">
+            <img src="cart.svg" alt="Cart">
         </div>
     </header>
 
@@ -33,28 +40,68 @@
                 <div class="intro-text">
                     <h1>Laptop for the future</h1>
                     <p>
-                        The new 14 inch bezeless display oferring a 4k display with touch screen.
+                        The new 14 inch bezeless display offering a 4k display with touch screen.
                     </p>
                 </div>
                 <div class="cta">
                     <button class="cta-select">14 Inch</button>
-                    <button class="cta-add">Add Tp cart</button>
+                    <button class="cta-add">Add To cart</button>
                 </div>
             </div>
             <div class="cover">
-                <img src="matebook.png">
+                <img src="matebook.png" alt="Matebook">
             </div>
         </section>
-        <div class="laptop-select">
-            <img src="arrow-left.svg">
-            <img src="dot.svg">
-            <img src="dot-full.svg">
-            <img src="dot-full.svg">
-            <img src="arrow-right.svg">
-        </div>
-        <img class="big-circle" src="big-eclipse.svg">
-        <img class="medium-circle" src="mid-eclipse.svg">
-        <img class="small-circle" src="small-eclipse.svg">
+
+        <section class="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="product1.png" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>High performance laptop for all your needs.</p>
+                </div>
+                <div class="product-card">
+                    <img src="product2.png" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>Compact and powerful desktop solution.</p>
+                </div>
+                <div class="product-card">
+                    <img src="product3.jpg" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>Stylish and ergonomic accessories.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p>"Amazing performance and great customer support!"</p>
+                    <h4>- John Doe</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"The best laptop I've ever used. Highly recommend!"</p>
+                    <h4>- Jane Smith</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Excellent value for money. Fantastic build quality."</p>
+                    <h4>- Mike Johnson</h4>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Follow Us</h3>
+            <div class="social-media">
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="twitterx.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
